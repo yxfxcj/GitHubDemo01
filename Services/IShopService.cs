@@ -6,7 +6,7 @@ namespace Ivan.DianPing.V2.Services
     public interface IShopService
     {
         /// <summary>
-        /// /sdf dsfsdf
+        /// test
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
