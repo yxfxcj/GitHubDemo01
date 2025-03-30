@@ -62,6 +62,8 @@ namespace Ivan.DianPing.Controllers
             var tokenKey = string.Format(CommonConstants.LOGIN_TOKEN_PREFIX, token);
             var user = await _userService.GetUserByToken(tokenKey);
 
+            Console.WriteLine("git branch test");
+
             return Ok(user);
         }
 
